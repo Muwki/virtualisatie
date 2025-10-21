@@ -1,0 +1,71 @@
+in proxmox go to disks
+select disk
+wipe disk 
+create directory
+choose file system
+choose datacenter created find it under pve
+choose iso images
+upload iso images
+create vm rechts boven
+geef naam etc
+zet tags als nodig 
+on os tab select uploaded iso  
+--
+systm
+bios seabios
+mach q35
+select qemu agent
+next
+--
+disk
+bepaal de volume disk size
+next
+--
+cpu
+bepaal cpu
+type: mostly host , als je geen vm's gaat verplaatsen
+next
+--memory
+choose memory
+next
+network
+laat default
+next
+confirm and finish
+---
+in pve select machine
+then start , recht boven
+
+na install
+maak een snapshot
+click snapshot > take snapshot
+zet title and discription > takesnapshot
+--
+to rollback
+selct snapshot en click rollback
+--+
+seleck vm and click backup
+---
+alternatief backup
+go to data center
+storage
+add
+select smb/cifs
+bij id zet je naam
+server zet je ipadr
+user and passwd
+bij share select je mount location
+bij content geef je aan wat je wil storen
+creer een folder in nas smb
+zet folder path bij subdirectory
+dan add
+je nas komt dan onder pve
+---
+je kan je backups dan daar opslaan
+klik backup 
+add
+kies een schedule(tijd)
+compression laat default
+mode snapshot
+then selectionmode ; vm that you want to backup
+dan kun je gelijk naar locatie sturen door run now te klikken
