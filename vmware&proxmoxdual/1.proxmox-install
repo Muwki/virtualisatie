@@ -1,0 +1,41 @@
+via ventoy
+kies normal install
+select target drive (in case of dual boot)
+instal proxmox ve
+for multiple drive select zfs
+for single drive xfs
+set password
+set region
+set static ip
+remove usb when installation is complete
+reboot
+use https ip to connect to web interface
+u can remove subscribtion reminder:
+connect to promox via ssh with mobaxterm
+connect with root 
+navigate /usr/share/javascript/proxmox-widget-toolkit
+cp proxmoxlib.js promoxlib.js.backup
+opn promoxlib.js with nano etc
+ctrl+w 
+search no valid sub
+scroll to let res = response.result;
+delete vanaf dat punt de volgende 16 regels tot orig_cmd()
+delete ook de curly bracket direct hierna
+save en exit
+
+restart proxmox service door
+systmctl restart pveproxy.service
+
+subs popup verdwijnt
+indien niet restore de file met
+mv proxmoxlib.js.bak proxmoxlib.js && systemctl restart pveproxy.service
+
+in de web intface
+ga naar pve (data center)
+updates .> repositories
+select the enterpries repositories and disable
+than add 2 no subscription repos
+no sub and ceph reef no sub
+dan updates and refresh to update server
+
+https://www.youtube.com/watch?v=kqZNFD0JNBc&t=603s
