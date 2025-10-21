@@ -1,0 +1,7 @@
+Idrac isues
+let not blinking
+klik bij start up of reboot op f2 om in de bios te gaan.
+ga naar idrac settings
+idrac moet zijn enabled
+nic moet enabled zijn en dedicated nic port
+
