@@ -1,0 +1,8 @@
+start up boot
+f2
+verander bios naaar uefi (Unified Extensible Firmware Interface)
+save
+reboot 
+f11
+change boot order and select
+raid controller or boot device
