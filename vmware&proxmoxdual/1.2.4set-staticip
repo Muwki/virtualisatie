@@ -1,0 +1,13 @@
+for network check
+ip -c a c for colored output
+ip r
+
+edit by 
+sudo nano /etc/network/interfaces
+---add--
+auto vmbr0  (vmbr0 is the interface name)
+iface vmbr0 inet static
+        address ip adres/subnet
+        gateway 
+        dns-domain 
+        dns-nameservers gateway and dns ip's
