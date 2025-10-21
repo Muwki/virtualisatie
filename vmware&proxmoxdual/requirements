@@ -1,0 +1,20 @@
+VMware en proxmox
+
+To run VMware and Proxmox on a server, you'll need a system with a 64-bit CPU (Intel 64 or AMD64) 
+that supports hardware virtualization (Intel VT-x or AMD-V).
+Proxmox requires at least 2 CPU cores, 2 GB of RAM (plus more for VMs), and 16 GB of disk space.
+VMware ESXi generally requires more resources, 
+with a minimum of 8 GB of RAM and 5 GB of disk space for installation, 
+but more is recommended for production use (4 cores, 32 GB RAM, more disk space).
+
+proxmox
+mem 2gb
+cpu 2 core
+disk 16
+
+esxi
+mem 8 gb tot 32
+cpu 4 core
+disk 5 gb for install
+disk +32 gb
+ping = packet internet groper = to verify ip connectivity between devices,
