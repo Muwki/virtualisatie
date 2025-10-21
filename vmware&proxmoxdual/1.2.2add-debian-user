@@ -1,0 +1,5 @@
+sudo useradd username --allow-bad-names (to bypass (met root zonder sudo)
+vul de rest gewoon in en geef password
+
+add user to sudo
+usermod -aG sudo username
