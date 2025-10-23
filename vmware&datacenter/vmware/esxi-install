@@ -1,13 +1,34 @@
 esxi install
 via dcui of idrac
-via dcui
+via dcui (direct console user interface)
 plaats installatie media op de hardware
 bij startup druk f11 om boot order te regelen
-do one time boot ien select de media
 
+
+via idrac (integraded dell remote acces controller)
+connect to idrac setup network en password
+logon to idrac
+power on server
+launch virtual console
+f2 to check system setup
+system bios
+boot settings
+uefi boot settings, bootmode uefi
+finish, finish,
+
+select bootmanager f11
+set boot menu ( drive vanuit je gaat installeren)
+on time uefi boot menu
+do one time boot en select de media
+shift + voor special boot options
+
+
+dcui install
+gewoon stappen volgen, f11 to continue etc.
 select disk use arrow keys
 in de dcui is de volgorde van boven naar beneden
 provide root psw
+
 config netw
 set ip4 op static
 disable ip6
