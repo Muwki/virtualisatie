@@ -68,7 +68,10 @@ f2
 optie test network
 to test if ip and dns are reachable.
 
-test browser via https link
-via hostname if dns is ok.
+test browser via links:
+https:// ip adres
+of 
+via https:// hostname 
+if dns is ok.
 
 
