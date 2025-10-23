@@ -1,0 +1,22 @@
+esxi install
+via dcui of idrac
+via dcui
+plaats installatie media op de hardware
+bij startup druk f11 om boot order te regelen
+do one time boot ien select de media
+
+select disk use arrow keys
+in de dcui is de volgorde van boven naar beneden
+provide root psw
+config netw
+set ip4 op static
+disable ip6
+obtain dns server
+adres and server
+automatically
+bij custom dns suffix dat van je hostname gebruiken
+host name zet je bij dns settings
+f2 to test network
+
+bij disk veruiming in VMware gui 
+is de disk volgorde van onder naar boven
