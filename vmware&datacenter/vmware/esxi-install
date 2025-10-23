@@ -64,6 +64,8 @@ bij custom dns suffix zet je het laatste gedeelte van je hostname
 vb. esxi.com
 optional
 
-f2 to test network
+f2 
+optie test network
+to test if ip and dns are reachable.
 
 
