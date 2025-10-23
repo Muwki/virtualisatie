@@ -1,0 +1,32 @@
+set time and date
+manage
+system
+advance settings
+time and date
+edit ntp settings
+select use netw protocol
+vul ntp ip adress in bij ntp servers
+
+daarna services
+select ntpd
+action and start 
+
+om netw te wijzigen via gui
+ga naar networking
+vmkernelnics
+select vmk0
+edit
+
+om dns te wijzigen en defGw
+ga naar tcp /ip stacks
+default tcp /ip stacks 
+edit settings
+
+enable ssh en esxi shell
+home menu
+host
+action
+service
+enable ssh
+enable esxi shell
+
