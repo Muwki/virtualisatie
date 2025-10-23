@@ -26,18 +26,44 @@ shift + voor special boot options
 dcui install
 gewoon stappen volgen, f11 to continue etc.
 select disk use arrow keys
-in de dcui is de volgorde van boven naar beneden
-provide root psw
-
-config netw
-set ip4 op static
-disable ip6
-obtain dns server
-adres and server
-automatically
-bij custom dns suffix dat van je hostname gebruiken
-host name zet je bij dns settings
-f2 to test network
+in de dcui is de disk volgorde van boven naar beneden.
 
 bij disk veruiming in VMware gui 
 is de disk volgorde van onder naar boven
+provide root psw
+
+dcui startup configs
+f2
+login
+root en psw
+use arrow keys to toggle
+
+config managenetw
+enter , netw adapt enter, lists of adaptrs, vmnic0 (default)
+esc to exit
+
+if 802 tag for vlan taggin
+toggle to vlan , enter, set vlan nr
+esc to go back
+
+ip4 config
+set ip4 op static (spacebar to select option)
+enter
+
+ipv6
+disable ip6
+
+dns config
+obtain dns server (primary and secundary)
+
+host name zet je bij dns settings
+hostname wordt ook in deze sectie geplaats
+vb. mur.esxi.com of laat standaard op localhost
+
+bij custom dns suffix zet je het laatste gedeelte van je hostname
+vb. esxi.com
+optional
+
+f2 to test network
+
+
