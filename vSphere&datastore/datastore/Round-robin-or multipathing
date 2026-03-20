@@ -1,0 +1,85 @@
+RR or multipathing
+to set the load balance
+- to check the rr first migrate storage only from issci-1 datastore to local datastore
+- check the nic usage of the host
+- klik host
+- klik monitor
+- performance
+- overview
+- scroll naar network
+- zoek nics (uplinks) en hover er over om de performance te zien.
+- na bevestiging that rr werkt en de load tussen beide nics wordt geshared
+- dan de vm storage weer migreren maar nu naar de escsi-2 storage (uiteindelijke bestemming)
+- zelfde migratie stappen volgen
+- select same format as source
+- keep existing vm storage policies
+- next
+- finish
+---
+set Round robinning
+- host en clusters view
+- select host
+- configure
+- storage devices
+- select the iscsi (storage )resource
+- check properties onderin en zie las round robin wordt gebruikt
+indien niet
+- bij multipathing onder properties select actions
+- edit multipathing
+- set path policy to round robin
+- ok 
+- do this for all the hosts
+---
+vm van iscsi-2 weer brengen naar isxi-1 (local storage)
+- select vm in vm en template view
+- right klik 
+- migrate
+- view vm origin
+- change storage only
+- next
+- select esxi-1 (local) (example)
+- next 
+- finish
+- --
+set RR for new storage device where vm is moved to
+-select host
+-storage device
+-select storage
+-scroll down properties
+-check multipathing
+- indien RR niet actief is
+- klik actions
+- edit multipathing
+- path selection policies
+- select round robin
+- ok
+- do this for each host
+--
+to check if RR multipath is working
+nu dan de vm brengen van iscsi -1 naar escsi-2
+- select vm via vm template
+- right klik 
+- migrtate
+- view origin
+- change storage only
+- select thin provision
+- next
+- finish
+----
+check nic performance
+- select host
+- monitor
+- performance 
+- overview
+- scroll naar network
+- kiez nic
+- hover erover
+- check als de performance hetzelfde zijn.
+- als je over de grafieken hover zie tot welke nic het grafiek behoort.
+
+                            
+
+
+
+
+
