@@ -32,6 +32,51 @@ check if storage is reachable;
 klik op vsphere client boven en ga naar content library
 of via hamburger menu ( 3 streepjes naast vsphere client)
 
+indien er een library is
+- klilk er op
+- other types
+- vm templates
+- rechtsklik de vm template
+- new vm for this template
+- name it
+- plaats het in foder , temp vm's
+- next 
+- next
+- select iscsi storage
+- next 
+- customize this vm hardware en power on
+- next
+- check of select netw adaptr
+- next 
+- finish
+---
+check de status in recent task
+---
+check inventory
+via hamburger menu of via vsphereclient
+- vm en templates
+- temp vm
+- select de vm
+- click to open
+- launch web console
+- check connectivity by doing trace route
+- traceroute -n 1.1.1.1  (-n to not do reverselookup)
+- zie output traceroute
+- also check summary page of the vm; cpu,memory,hd,netwadapter etc.
+- klik op de iscsi link in hdd brengt je naar de datastore page
+- hier kan je verder files etc checken
+- also check the hosts connected datastore
+
+- 
+
+
+
+
+
+
+
+
+
 
 
 
