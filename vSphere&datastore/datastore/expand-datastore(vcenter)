@@ -1,1 +1,34 @@
-xx
+start with gameplan; what to do
+-add iscsi external datastore
+-create vmfs datastore (vcenter)
+-expand vmfs datastore (vcenter) ******
+-storagemigration
+-rr(round robin or multipathing)
+--------
+- klik storage icon
+- select datastore
+- lees in de summary tab de capaciteit en beschikbaarheid af.
+
+- check dan bij de host, via host en clusters
+- rechtsklik host
+- storage adapters
+- configure
+- iscsi storage adapter
+- devices
+- check for storage device in the device list (confirmatie bij disk size)
+- click target (onder datastore tab) link
+- in de summary zie hoeveel is allocated en wat er wordt gebruikt
+vervolgens
+- rechts klik de datastore (iscsi-2 in test geval)
+- increase datastore capacity
+- select welke
+- next
+- select use all freespace of kiez met hoeveel je wil vergroten.
+- next 
+- finish
+
+-- check welke host op de datastore zijn
+- select datastore
+- click host tab
+--------
+
