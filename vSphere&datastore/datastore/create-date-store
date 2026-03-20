@@ -1,0 +1,9 @@
+start with gameplan; what to do
+-add iscsi
+-create vmfs *******
+-expand vmfs
+-storagemigration
+-rr(round robin or multipathing)
+------------
+
+
