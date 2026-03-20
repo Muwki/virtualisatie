@@ -1,3 +1,15 @@
 xx
+via vsphere aan de boven kant of  de 3 streepjes er naast zie alle beschikbare
+menu's omshrijvingen en icoontjes.
+--
+host en clusters
+host zijn de vsphere machines
+clusters zijn de vsphere groepen
+--
+host en vm
+host is de hoofd machine(vsphere)
+vm zijn de virtual machines
+--
+DC is datacenten (verzameling van DS datastores)
 
 
