@@ -1,0 +1,39 @@
+start with gameplan; what to do
+-add iscsi
+-create vmfs *******
+-expand vmfs
+-storagemigration
+-rr(round robin or multipathing)
+------------
+- click storage icon
+- right click datacenter
+- storage
+- new data store
+of via host en clusters
+- right click cluster
+- storage
+- new storage
+- choose format (vmfs)
+= next
+- name it
+- select a host
+- select the target (iscsi previously added)
+- next
+- vmfs 6
+- next 
+- bepaal de size
+- next
+- finish
+---
+check dan in de datacenter als het voorkomt.
+een DS kan renamen door rechtsklikken erop en rename kiezen
+---
+check if storage is reachable;
+klik op vsphere client boven en ga naar content library
+of via hamburger menu ( 3 streepjes naast vsphere client)
+
+
+
+
+
+
