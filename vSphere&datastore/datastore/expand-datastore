@@ -1,0 +1,55 @@
+start with gameplan; what to do
+-add iscsi
+-create vmfs
+-expand vmfs
+-storagemigration
+-rr(round robin or multipathing)
+---
+expand iscsi storage on windows server
+- launch servermanger
+- file en storage service
+- iscsi
+- task rechtsboven
+- new iscsi virt disk
+- select space en drive letter
+- next
+- give it a name
+- next
+- choose size en selct dynamically expanding
+- next
+- vink new iscsi target
+-next
+- geef naam (zelfde naam) recommended
+- next
+- add & select from initiators en choose initiator
+- ok 
+-add de volgende etc etc
+- next
+- skip chap
+- next 
+- create
+- after completed , click close
+-----
+terug naar vcenter
+- host en clusters view ;
+- select host
+- configure
+-storage adapter
+- select adapter ( iscsi softw adapter)
+- scroll naar onder en selct devices
+- lees af als alle storages devices connected zijn
+-anders click rescan storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
