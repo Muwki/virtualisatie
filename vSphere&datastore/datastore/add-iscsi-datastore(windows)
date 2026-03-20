@@ -1,5 +1,5 @@
 start with gameplan; what to do
--add iscsi
+-add iscsi *********
 -create vmfs
 -expand vmfs
 -storagemigration
