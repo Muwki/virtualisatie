@@ -1,0 +1,6 @@
+go to networks / vm networks
+DSwitch 0 is algemeen voor alle vlan
+DSwitch1 is voor Vcenter Vlan
+- rechtsklik
+- add distribution
+- network distribution port
