@@ -1,7 +1,7 @@
 start with gameplan; what to do
 -add iscsi
 -create vmfs *******
--expand vmfs
+-expand vmfs (vmware file system)
 -storagemigration
 -rr(round robin or multipathing)
 ------------
