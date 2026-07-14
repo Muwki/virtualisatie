@@ -1,0 +1,5 @@
+How It Works
+Proxmox is your "Level 1" (bare-metal) hypervisor.
+You create a Virtual Machine in Proxmox and install VMware ESXi inside it (Level 2).
+You then create another VM to run vCenter Server
+(either directly on Proxmox, or inside your nested ESXi).
