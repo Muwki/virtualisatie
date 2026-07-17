@@ -1,0 +1,82 @@
+start with gameplan; what to do
+-add iscsi external datastore
+-create vmfs datastore (vcenter)
+-expand vmfs datastore (vcenter) 
+-storagemigration (vcenter) ********
+-rr(round robin or multipathing)
+-----------
+vmotion is migration if vm is running
+migration is storage migration if vm is of.
+----
+via vmotion
+-click vm en template 
+- select a vm
+- check datastore tab to view which datastore is being used
+- click summary tab en scroll down, check related objects to see on which
+host the vm is running
+** you can move the vm to different (server) host and or to a different data store.
+- richt klik vm
+- migrate
+- check vm origin link recht boven to verify
+- change both compute resource en storage ( one at the is also possible)
+- next
+- select nieuw host
+- next
+- select nwe datastore
+-next
+- thin provision
+- next
+- data default
+- check compatibility tab for status (succes or error)
+- next
+- selct port group; kan zelfde blijven indien consistent distrubuted switch
+with all portgroups acros all esxi hosts
+- next
+- schedule vmotion with high priority (recommended)
+- next
+- check summary
+- finish
+--  check status in recent tasks (onderin)
+- back to the vm
+- klik datastores tab
+- refresh, moet de nwe connected datastore connected zijn.
+- check related object bij summary om host, cluster en datastore te zien
+- indien alles nog niet zichtbaar is wacht een paar minutjes.
+-------
+
+migrate powered of vm (storage migration)
+vm with larger disk
+- ga vm template
+- select vm
+- check datastore tab to view which datastore is being used
+- click summary tab en scroll down, check related objects to see on which
+host the vm is running
+- richt klik vm
+- migrate
+- check vm origin link recht boven to verify
+- change storage only
+next
+- select nwe datastore
+-next
+- thin provision
+- data default
+- next
+- finish
+- check networking , click networking icon
+- click distributed switch
+- configure
+- topology
+- check de port group en uplinks
+   linker kant is port groups, rechterkant zie je de uplink
+-via vApp large vms, zie de vm en hun host
+- ga naar host waarop vm zit
+- select monitor
+- overview in performance section
+- scroll down and check network section
+- door > links boven te klikken kun je de view verbreden
+- aan de onderkant zie de usage grafieken voor de vmnics
+- geeft eigenlijk de load performance per nic aan.
+
+
+
+-
