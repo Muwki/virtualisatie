@@ -1,0 +1,20 @@
+file system (vmfs, nfs)
+VMFS is vm file system
+- local storage; nadelig voor cluster,
+omdat alleen de local host device de storage kan benadere
+---
+network based storage
+techniek;
+- iscsi target
+hier is iscsi host iniator en de appliance dat 
+de storage biedt is de target
+- storage & iniator moeten als vmfs zijn geconfigureerd
+hierdoor kunnen de host via de iscsci adapter (fysiek of software) over
+het netwerk de target bereiken
+--
+NFS (3,4, 1)
+--
+vm en of datastore verplaatsen kan op 2 manieren; hot (als het aan is) of als het uit is
+als het aan is praat men van vmotion
+als het uit is praat van migratie.
+belangrijk om te weten welke interface en vmkerneladapters worden gebruikt
