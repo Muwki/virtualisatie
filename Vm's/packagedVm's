@@ -1,0 +1,25 @@
+vm is a bunch of files
+
+ovf open virtualization format
+move from phycal machine to vsphere vm
+
+vendor setups and share it
+called appliances
+every one who sell a product that need a vm uses appliance
+ova open virtualization appliance
+
+example
+tar -xvf demo.ova -C ./extract/
+-x to extracted
+-v verbose to see whats happening
+-f specify filename 
+-C define folder location
+
+create tar ova tar order
+.ovf
+.mf
+.vmdk
+.nvram
+--
+
+
