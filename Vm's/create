@@ -1,1 +1,22 @@
-txt
+considerations
+this method take time and most complex
+
+vm name
+esxi (compatability)
+(Guest) Os
+linux,type, distro, version
+hardware, 
+cpu, (resource for os, appl, service
+ram,
+storage,
+thick/thin provision
+net adaptor
+storage controler
+
+setup:
+os
+update
+
+
+
+
