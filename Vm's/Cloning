@@ -1,1 +1,31 @@
-txt
+cloning is copy and paste of one machine
+reason:
+for redundancy
+seperate test environment
+
+ipmportant
+clone needs
+different name
+UUid
+*done automatically
+---
+sw id of the vm stays the same
+settings inside vm e,g
+ipaddr
+
+cpu
+ram
+same as orginal 
+(optional to change) recommended
+---
+windows machine
+windows vm on active directory 
+important the sid (doesnot change while cloning
+use sysprep uttility on windows to generate
+windows installation before cloning
+
+save a lot time when creating multiplevm's
+
+
+
+
