@@ -23,5 +23,9 @@ menu vm en templates
 - select portgroup
 - select connected and connected at power
 
+- als er geen network adaptor is
+voeg je dat toe bij add nwe devie
+- network --> adapter
+
 
 
