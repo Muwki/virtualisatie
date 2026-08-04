@@ -1,6 +1,27 @@
 go to networks / vm networks
 DSwitch 0 is algemeen voor alle vlan
 DSwitch1 is voor Vcenter Vlan
-- rechtsklik
-- add distribution
-- network distribution port
+go to networking (globe icon)
+- rechtsklik op de switch
+- distributed port group
+- new distributed group
+- add name 
+- next
+config settings
+- port binding: static binding (def)
+- port allocation: Elastic(def)
+- vlan type: vlan, vlan id ..
+- next finish
+-
+
+add vlan to vm
+menu vm en templates
+-recht klik vm
+-edit settings
+-network adapter
+-netw drop dwn
+- select portgroup
+- select connected and connected at power
+
+
+
