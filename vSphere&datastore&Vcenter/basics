@@ -10,6 +10,9 @@ host en vm
 host is de hoofd machine(vsphere)
 vm zijn de virtual machines
 --
+host ip is exsi baremetal ip
+guest ip is vm ip
+--
 DC is datacenten (verzameling van DS datastores)
 
 
