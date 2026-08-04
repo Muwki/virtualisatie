@@ -1,0 +1,14 @@
+select portgroup in network vw
+- configure
+- settings/properties
+- verify / confirm vlan type en id
+
+---- check vm on portgroup
+In vm summary tab
+- bij networks moet je portgroup zien
+of
+port group -- monitor --ports --vNic van vm 
+moet zijn gelist and connected status
+
+--check uplinks
+vds -- (monitor) configure--topology-- check exsi host shows active uplinks
