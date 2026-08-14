@@ -1,0 +1,14 @@
+
+AI Mode conversation: create ventoy usbYou said: create ventoy usbcreate ventoy usbTo create a Ventoy bootable USB, 
+download the installer from the Ventoy Official Website, plug in a blank USB drive (at least 16GB recommended),
+run the Ventoy application, select your drive, and click Install. 
+Once installed, simply drag and drop your ISO files directly onto the USB drive.
+Step-by-Step InstructionsDownload: 
+Go to the Ventoy Downloads page and grab the zip package for your operating system (Windows or Linux).
+Extract: Extract the downloaded zip file into a folder on your computer.Connect: 
+Plug your USB flash drive into the computer. (Note: Back up any important files first, as the drive will be formatted).
+Install: Run Ventoy2Disk.exe (on Windows) or the corresponding script (on Linux), 
+choose your USB device from the drop-down menu, and click Install.Confirm: 
+Accept the warning prompts to format the drive. The process takes only a few seconds.Add ISOs: 
+Copy-paste or drag-and-drop any operating system ISO files 
+(like Windows, Ubuntu, or rescue tools) directly onto the main partition of the Ventoy USB drive.
